@@ -1,8 +1,7 @@
 # mft-sample-web-ui
 This repository contains a sample web page which uses JavaScript to interact with the 
 IBM MQ Managed File Transfer administrative REST API added in MQ 9.0.5. Support has 
-been added to drive all the major capabilities of the REST API available at the 
-MQ 9.0.5 level.
+been added to allow querying of agent and transfer states using REST API at MQ 9.0.5 level.
 
 
 ## Instructions:

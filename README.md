@@ -29,14 +29,14 @@ configuration in the mqweb server. More information on how to do that is here:
 https://www.ibm.com/support/knowledgecenter/SSFKSJ_9.0.0/com.ibm.mq.sec.doc/q128790_.htm
 
 5. Ensure mqwebuser.xml file contains the following roles of MFT.
-            '<security-role name="MFTWebAdmin">'
-                '<group name="MQWebAdminGroup" realm="defaultRealm"/>'
-            '</security-role>'
+            <security-role name="MFTWebAdmin">
+                <group name="MQWebAdminGroup" realm="defaultRealm"/>
+            </security-role>
 
 6. Add the following variables to mqwebuser.xml file
-	'<variable name="mqRestMftEnabled" value="true"/>'
-	'<variable name="mqRestMftCoordinationQmgr" value="MFTDEMO"/>'
-	'<variable name="mqRestMftReconnectTimeoutInMinutes" value="5"/>'
+	<variable name="mqRestMftEnabled" value="true"/>
+	<variable name="mqRestMftCoordinationQmgr" value="MFTDEMO"/>
+	<variable name="mqRestMftReconnectTimeoutInMinutes" value="5"/>
 
 7. Restart MQ web server using strmqweb command.
 

@@ -49,7 +49,7 @@ the URL would be something like: https://localhost:9444/simple/, but with whatev
 port and hostname had been configured.
 
 
-## Some trouble shooting hints:
+## Some troubleshooting hints:
 
 * If you can bring up the sample webui but get a message about a CORS error then review
 the CORS configuration in step 4 above.
